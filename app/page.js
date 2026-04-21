@@ -395,7 +395,7 @@ export default function Home() {
                         className={isLast ? 'pulsing-dot' : ''}
                         style={{ width: 10, height: 10, borderRadius: '50%', background: dotColor, marginTop: 5, zIndex: 1, position: 'relative', flexShrink: 0 }} 
                       />
-                      <div style={{ fontSize: 13, color: color, fontFamily: 'monospace', lineHeight: 1.4 }}>
+                      <div style={{ fontSize: 13, color: color, fontFamily: 'monospace', lineHeight: 1.4, whiteSpace: 'pre-wrap' }}>
                         {line}
                       </div>
                     </div>
